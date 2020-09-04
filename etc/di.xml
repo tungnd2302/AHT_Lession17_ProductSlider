@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * module
+ *
+ * @copyright Copyright © 2020 MAGETOP. All rights reserved.
+ * @author    info@magetop.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="Magento\Catalog\Controller\Adminhtml\Category\Widget\Chooser" type="AHT\ProductSlider\Controller\Adminhtml\Catalog\Category\Widget\Chooser" />
+    <preference for="Magento\Catalog\Block\Adminhtml\Category\Widget\Chooser" type="AHT\ProductSlider\Block\Adminhtml\Catalog\Category\Widget\Chooser" />
+</config>
